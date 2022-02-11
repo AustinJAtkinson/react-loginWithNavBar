@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import LoginForm from './components/login-form';
+import Navbar from './components/navbar';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+  <Navbar/>
+    <LoginForm />
+    </div>,
   document.getElementById('root')
 );
 
